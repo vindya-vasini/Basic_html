@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>first</title>
+</head>
+<body>
+    <h1>click the button</h1>
+    <p id="counter">0</p>
+    <button onclick="Increment()">Button</button>
+    <script>
+        let c=0;
+        // document.getElementById("counter").(1)=c;
+        function Increment(){
+            c++;
+            document.getElementById("counter").innerHTML=c;
+        }
+    </script>
+    <!-- <button onclick="Clicked()">Button</button> -->
+</body>
+</html>

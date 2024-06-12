@@ -1,0 +1,44 @@
+.card1{
+    border-color: rgb(20, 20, 20);
+    border-width: 10px;
+    border-style: double ;
+    background-image:linear-gradient(rgb(242, 117, 242),cyan) ;
+    height: 600px;
+    width:300px;
+}
+.card2{
+    border-color: rgb(14, 14, 14);
+    border-width: 10px;
+    border-style: double ;
+    background-image:linear-gradient(rgb(220, 86, 86),rgb(248, 244, 244)) ;
+    height: 600px;
+    width:300px;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.flower{
+    display: block;
+    margin-top: 30px;
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    
+}
+.name{
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+.title{
+text-align: center;
+color: purple;
+}
+body{
+    background-image: linear-gradient(white,beige,rgb(218, 211, 211));
+}

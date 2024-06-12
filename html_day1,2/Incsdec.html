@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        div{
+            display:flex;
+            justify-content: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Increment or Decrement </h1>
+    <p id="counter">0</p>
+    <div>
+    <button onclick="Inc()">Increment</button>
+    <button onclick="Dec()">Decrement</button>
+    <button onclick="Reset()">Reset</button>
+    </div>
+    <script>
+        var c=0;
+        function Inc(){
+            c++;
+            document.getElementById("counter").innerHTML=c;
+        }
+        function Dec(){
+            c--;
+            document.getElementById("counter").innerHTML=c;
+        }
+        function Reset(){
+            c=0;
+            document.getElementById("counter").innerHTML=c;
+        }
+    </script>
+</body>
+</html>
